@@ -1,0 +1,78 @@
+{
+    "artists": [
+        {
+            "id": 1,
+            "name": "Billie Eilish"
+        },
+        {
+            "id": 2,
+            "name": "Arctic Monkeys"
+        },
+        {
+            "id": 3,
+            "name": "Paramore"
+        }
+    ],
+    "albums": [
+        {
+            "id": 1,
+            "name": "When We All Fall Asleep, Where Do We Go?",
+            "genre": "Alternative/Indie",
+            "artistId": 1
+        },
+        {
+            "id": 2,
+            "name": "AM",
+            "genre": "Rock",
+            "artistId": 2
+        },
+        {
+            "id": 3,
+            "name": "Paramore",
+            "genre": "Rock",
+            "artistId": 3
+        }
+    ],
+    "songs": [
+        {
+            "id": 1,
+            "name": "Still Into You",
+            "albumId": 3
+        },
+        {
+            "id": 2,
+            "name": "Bad Guy",
+            "albumId": 1
+        },
+        {
+            "id": 3,
+            "name": "Do I Wanna Know?",
+            "albumId": 2
+        },
+        {
+            "id": 4,
+            "name": "Ain't It Fun",
+            "albumId": 3
+        },
+        {
+            "id": 5,
+            "name": "you should see me in a crown",
+            "albumId": 1
+        },
+        {
+            "id": 6,
+            "name": "bury a friend",
+            "albumId": 1
+        },
+        {
+            "id": 7,
+            "name": "R U Mine?",
+            "albumId": 2
+        },
+        {
+            "id": 8,
+            "name": "I Wanna Be Yours",
+            "albumId": 2
+        }
+    ]
+}

@@ -1,0 +1,131 @@
+{
+    "employees": [
+        {
+            "id":1,
+            "name": "Bob Geller",
+            "role": "Manufacturing Lead",
+            "departmentId": 3
+        },
+        {
+            "id":2,
+            "name": "Arnold Jenkins",
+            "role": "Principal Investigator",
+            "departmentId": 1
+        },
+        {
+            "id":3,
+            "name": "Nicole Sands",
+            "role": "Chief Executive Officer",
+            "departmentId": 4
+        },
+        {
+            "id":4,
+            "name": "Marley Jacobs",
+            "role": "Transportation Coordinator",
+            "departmentId": 3
+        },
+        {
+            "id":5,
+            "name": "Heidi Quinn",
+            "role": "Network Adminstrator",
+            "departmentId": 2
+        }
+    ],
+    "departments": [
+        {
+            "id":1,
+            "name": "Nutritional Science",
+            "company": "ChemicalsRUs"
+        },
+        {
+            "id":2,
+            "name": "Information Technology",
+            "company": "ChemicalsRUs"
+        },
+        {
+            "id":3,
+            "name": "Manufacturing and Transportation",
+            "company": "ChemicalsRUs"
+        },
+        {
+            "id":4,
+            "name": "Executive Office",
+            "company": "ChemicalsRUs"
+        }
+    ],
+    "computers": [
+        {
+            "id":1,
+            "type": "Laptop"
+        },
+        {
+            "id":2,
+            "type": "Phone"
+        },
+        {
+            "id":3,
+            "type": "Tablet"
+        },
+        {
+            "id":4,
+            "type": "Desktop"
+        }
+    ],
+    "employee-computer": [
+        {
+            "id": 1,
+            "employeeId": 1,
+            "computerId": 3
+        },
+        {
+            "id": 2,
+            "employeeId": 1,
+            "computerId": 4
+        },
+        {
+            "id": 3,
+            "employeeId": 2,
+            "computerId": 1
+        },
+        {
+            "id": 4,
+            "employeeId": 2,
+            "computerId": 4
+        },
+        {
+            "id": 5,
+            "employeeId": 3,
+            "computerId": 1
+        },
+        {
+            "id": 6,
+            "employeeId": 3,
+            "computerId": 2
+        },
+        {
+            "id": 7,
+            "employeeId": 3,
+            "computerId": 4
+        },
+        {
+            "id": 8,
+            "employeeId": 4,
+            "computerId": 2
+        },
+        {
+            "id": 9,
+            "employeeId": 4,
+            "computerId": 3
+        },
+        {
+            "id": 10,
+            "employeeId": 5,
+            "computerId": 1
+        },
+        {
+            "id": 11,
+            "employeeId": 5,
+            "computerId": 4
+        }
+    ]
+}
